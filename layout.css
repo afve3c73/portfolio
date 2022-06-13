@@ -1,0 +1,58 @@
+main img {
+  width: 100%;
+}
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  color: #141313;
+  text-transform: uppercase;
+  font-size: 200%;
+}
+
+h3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  color: #141313;
+  text-transform: uppercase;
+}
+.grid_1 {
+  background-image: url("bilder/splash.svg");
+  background-size: cover;
+
+  padding-bottom: 35%;
+}
+
+.velkommst_text {
+  padding-left: 7%;
+  padding-top: 10%;
+}
+
+.velkommst_text h2 {
+  font-size: 260%;
+  letter-spacing: 2px;
+  color: white;
+}
+
+p {
+  font-family: "Nuosu SIL", serif;
+}
+
+.velkommst_text h3 {
+  font-size: 120%;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.grid_1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.col {
+  padding: 2%;
+}
+
+.col-flex {
+  margin-bottom: 5px;
+}
